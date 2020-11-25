@@ -2,3 +2,46 @@
   height: 40px;
 
 }
+
+a{
+  color: #0066FF;
+}
+
+.sfondo{
+  background-image: url(../img/bg-home.jpg);
+  color: #fff;
+}
+
+.box-jumbo{
+  text-align: center;
+  margin-left: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.box-jumbo input{
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+::placeholder{
+  color: #7979;
+  opacity: 1;
+}
+
+.title-box-1{
+  color: #031c4e;
+}
+
+.title-box-2{
+  color: #1173FF;
+}
+
+.btn-box-jumbo{
+  width: 100%;
+  background-color: #1173FF;
+  color: white;
+  border-radius: 5px;
+}
