@@ -6,6 +6,10 @@
   margin-top: 50px;
 }
 
+.margin-bottom{
+  margin-bottom: 50px;
+}
+
 .img-center{
   display: block;
   margin-left: auto;
@@ -175,4 +179,25 @@
   height: 10px;
   width: 66.5px;
   margin: 0 auto;
+}
+
+/* Gradient */
+
+.title-gradient{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sfondo-gradient{
+  background: rgb(0,45,242);
+  background: linear-gradient(90deg, rgba(0,45,242,1) 7%, rgba(0,57,182,1) 52%);
+  color: white;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.element-gradient{
+  border-bottom: 1px solid white;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
