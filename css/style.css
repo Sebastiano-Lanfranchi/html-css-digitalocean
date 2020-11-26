@@ -136,6 +136,9 @@
   margin-top: 40px;
 }
 
+.bg-color-container{
+  background-color: #F3F5F9;
+}
 .blue-title{
   color: #0E2656;
   font-weight: bold;
