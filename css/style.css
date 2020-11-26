@@ -1,14 +1,46 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style nav */
+
 .resize-logo{
   height: 40px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a{
-  color: #0066FF;
+.nav{
+  position: relative;
 }
+
+.navbar-default .navbar-nav > li > a {
+  color: #195AFF;
+}
+
+.btn-nav{
+  position: absolute;
+  top: -50%;
+  transform: translateY(50%);
+  width: 80px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #0049FF;
+  border-color: #0049FF;
+}
+
+.color-link{
+  color: #0049FF;
+}
+
+/* /Style nav */
+
+/* testata jumbotron */
 
 .sfondo{
-  background-image: url(../img/bg-home.jpg);
+  background-image: url(../img/bg-home.svg);
+  background-size: cover;
   color: #fff;
 }
 
@@ -27,7 +59,7 @@ a{
 }
 
 ::placeholder{
-  color: #7979;
+  color: #969696;
   opacity: 1;
 }
 
@@ -39,9 +71,74 @@ a{
   color: #1173FF;
 }
 
-.btn-box-jumbo{
+.btn-box-jumbo1{
   width: 100%;
   background-color: #1173FF;
   color: white;
   border-radius: 5px;
+}
+
+.btn-box-jumbo2{
+  width: 100%;
+  background-color: #FFF;
+  color: #969696;
+  border-radius: 5px;
+  position: relative;
+}
+
+.logo-g{
+  height: 20px;
+  position: absolute;
+  right: 90%
+}
+
+.jumbotron .box-jumbo p{
+  color: #031C4E;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.jumbotron .box-jumbo p span{
+  color: #3387FF;
+  text-decoration: underline;
+}
+
+/* /testata jumbotron */
+
+/* corpo centrale */
+
+.slogan-main{
+  color: #5B6987;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img-slogan-1,
+.img-slogan-2,
+.img-slogan-3,
+.img-slogan-4,
+.img-slogan-5,
+.img-slogan-6{
+  height: 50px;
+  width: 150px;
+  margin-right: 100px;
+}
+
+.under-image{
+  color: #3387FF;
+  margin-top: 40px;
+}
+
+.blue-title{
+  color: #0E2656;
+  font-weight: bold;
+}
+
+.p-color{
+  color: #5B6987;
+}
+
+.elenco-box{
+  border-left: 1px solid #5B6987;
+  font-size: 30px;
 }

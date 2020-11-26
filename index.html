@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>DigitalOcean</title>
 </head>
@@ -31,9 +33,9 @@
           <div class="navbar col-md-4 text-center" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class=""><a href="#">Products <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li><a class="color-link" href="#">Customers</a></li>
+              <li><a class="color-link" href="#">Community</a></li>
+              <li><a class="color-link" href="#">Pricing</a></li>
             </ul>
           </div>
           <!-- /NAV-COL-CENTER -->
@@ -41,9 +43,9 @@
           <div class="navbar col-md-4" >
             <ul class="nav navbar-nav">
               <li class=""><a href="#">Docs <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Login</a></li>
-              <li><button type="submit" class="btn btn-default">Sign Up</button></li>
+              <li><a class="color-link" href="#">Support</a></li>
+              <li><a class="color-link" href="#">Login</a></li>
+              <li><button type="submit" class="btn-nav">Sign Up</button></li>
             </ul>
           </div>
         </div>
@@ -53,28 +55,95 @@
     <div class="jumbotron sfondo">
       <div class="container">
         <div class="row ">
-          <div class="col-md-6">
+          <div class="col-md-6 col-xs-12">
             <h1>The simplest cloud platform for developers & teams</h1>
             <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-xs-12">
             <div class="box-jumbo">
               <h2 class="title-box-1">Deploy your app in seconds.</h2>
               <h2 class="title-box-2">Get started now.</h2>
               <input type="email" name="Email" value="" placeholder="Email">
               <input type="Password" name="Email" value="" placeholder="Password">
-              <button type="submit" class="btn btn-default btn-box-jumbo">Create your account</button>
+              <button type="submit" class="btn btn-default btn-box-jumbo1">Create your account</button>
+              <button type="submit" class="btn btn-default btn-box-jumbo2"><img src="img/logo-g.png" class="logo-g" alt="">Sign up with google</button>
+              <p class="p-jumbo">By signing up you to  the <span class="p-jumbo-special">Terms of Service</span>.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
   </header>
   <!-- /TESTATA -->
+  <!-- CORPO CENTRALE -->
+  <div class="container">
+    <p class="slogan-main">
+      INNOVATIVE BUSINNES TRUST DIGITALOCEAN
+    </p>
+    <div class="row">
+      <div class="col-md-2 col-xs-6">
+        <img src="img/docker.png" class="img-slogan-1" alt="">
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <img src="img/gitlab.png" class="img-slogan-2" alt="">
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <img src="img/slack.png" class="img-slogan-3" alt="">
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <img src="img/hashicorp.png" class="img-slogan-4" alt="">
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <img src="img/hashicorp.png" class="img-slogan-5" alt="">
+      </div>
+      <div class="col-md-2 col-xs-6">
+        <img src="img/splunk.webp" class="img-slogan-6" alt="">
+      </div>
+    </div>
+    <div class="under-image text-center">
+      View customers stories >
+    </div>
+  </div>
+  <!-- DEPLOY AND SCALE -->
+  <div class="container">
+    <h2 class="text-center blue-title">Deploy and scale seamlessy</h2>
+    <p class="text-center p-color">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>\
+    <div class="row">
+      <div class="col-md-3 elenco-box p-color">
+        Deploy <br>
+        Manage <br>
+        Secure <br>
+        Scale <br>
+        Monitor
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/kublogoicon.svg" alt="">
+            <h3 class="blue-title">Kubernetes in minutes</h3>
+            <p class="p-color">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
 
+          </div>
+          <div class="col-md-6">
+            <img src="img/dropletinboxicon.svg" alt="">
+            <h3 class="blue-title">Flexible compute types</h3>
+            <p class="p-color">With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
 
+          </div>
+          <div class="col-md-6">
+            <img src="img/featuredicon.svg" alt="">
+            <h3 class="blue-title">App Platform</h3>
+            <p class="p-color">Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll handle the infrastructure, app runtimes, and dependencies, so that you can push code to production in just a few clicks.</p>
+
+          </div>
+          <div class="col-md-6">
+            <img src="img/stacksplusicon.svg" alt="">
+            <h3 class="blue-title">1-Click App Marketplace</h3>
+            <p class="p-color">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
