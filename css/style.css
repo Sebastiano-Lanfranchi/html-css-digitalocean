@@ -15,6 +15,22 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.fl{
+  float:left;
+}
+
+.fr{
+  float:right;
+}
+
+.up{
+  margin-top: 25%
+}
+
+.down{
+  margin-top: 25%
+}
 /* Style nav */
 
 .resize-logo{
@@ -199,5 +215,15 @@
 .element-gradient{
   border-bottom: 1px solid white;
   padding-top: 2px;
-  padding-bottom: 2px;
+}
+
+
+.resize-img-rockerbox{
+  height: 50px;
+}
+
+.btn-footer{
+  width: 20%;
+  color: #1173FF;
+  background-color: #fff;
 }
